@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial=scale=1.0">
     <title>Document</title>
-    
+    <body style="background-color:"Backc";">
 </head>
 <body>
-    <h1>My first web page!</h1>
+    <h1>My first web Page!</h1>
     <font size = 2>
 <button onclick="history.back()">Go back</button>
-<body style="background-color:powderblue;">
+<form action="/url" method="GET">
+        <label for="Backc"> What color do you want the background to be:</label>
+            <input type="text" id="Backc" name="Backc" minlength="0" maxlength="25" required>
+        <button type="submit">Submit</button>  
+    </form>
 </body>
 </html>
