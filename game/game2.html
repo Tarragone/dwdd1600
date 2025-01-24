@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            let box; // Variable to hold the box element
+
+            function showRandomNumber() {
+                showFixedPosition(); // Call the function to show the box at a fixed position
+            }
+
+            function getRandomColor() {
+                const letters = '0123456789ABCDEF';
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            function showFixedPosition() {
+                if (box) {
+                    box.remove(); // Remove the old box if it exists
+                }
+
+                box = document.createElement('div'); // Create a new box element
+
+                // Generate random positions within the window dimensions
+                const windowWidth = window.innerWidth;
+                const windowHeight = window.innerHeight;
+                const randomLeft = Math.floor(Math.random() * (windowWidth - 30)); // Subtract box width
+                const randomTop = Math.floor(Math.random() * (windowHeight - 30)); // Subtract box height
+
+                // Set the box properties
+                box.style.width = '30px';
+                box.style.height = '30px';
+                box.style.backgroundColor = getRandomColor(); // Set initial color
+                box.style.position = 'absolute';
+                box.style.left = randomLeft + 'px'; // Use the random left position
+                box.style.top = randomTop + 'px'; // Use the random top position
+
+                // Add click event to randomize position when clicked
+                box.addEventListener('click', function() {
+                    showFixedPosition(); // Randomize position
+                });
+
+                document.body.appendChild(box); // Add the box to the body
+            }
+        </script>
+    </head>
+    <body onload="showRandomNumber();">
+        <div id="cwidth"></div>
+    </body>
+</html>
