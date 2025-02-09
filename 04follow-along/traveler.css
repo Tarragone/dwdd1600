@@ -1,28 +1,20 @@
 body {background-color:beige;
-
     font-family: "Oxygen", serif;
     margin: 0;
-
 }
-
 /*header stuff*/
-
 header {
-    
     Background-color: #eaeaea;
     padding: 1rem 10px;
 }
-
 header span{
     color:#024873;
     font-size: 1.6rem;
     font-weight: 700;
 }
 /*navi*/
-
 Nav {
     background-color: #f2b705;
-    
 }
 nav ul{
     margin: 0;
@@ -30,11 +22,9 @@ nav ul{
     list-style-type: none;
     display: flex;
 }
-
 nav li.dog a {
     background-color: #024873;
     color: #f2b705;
-    
 }
 nav a{
     display: block;
@@ -46,20 +36,14 @@ nav a{
 }
 nav li a:hover{
     color: white;
-    
 }
-
-
 /*main stuff here*/
-
 main{
-    
     padding: 1rem 10px;   
 }
 main h1{
     color: #b40412;
 }
-
 main h2{
    color: #024873;
     margin-bottom: .2rem;
@@ -68,7 +52,6 @@ main p{
     margin: 0;
     color: #333;
 }
-
 main ol{
     padding: .5rem 30px;
     background-color: #efefef;
@@ -83,29 +66,22 @@ Main dl dd{
     font-size: .9rem;
     margin-left: 20px;
 }
-
 main ul{
     list-style-type: circle;
-    
 }
-
 main ul li{
     line-height:125%;
     margin-bottom; .5rem;
-    font-size: .9rem;
-    
+    font-size: .9rem; 
 }
 
 main strong{
     font-weight: 700;
     color: #000;
 }
-
 main em{
-    font-weight: 300;
-    
+    font-weight: 300; 
 }
-
 main address {
     font-style: normal;
     background-color: #f2b705;
@@ -113,29 +89,20 @@ main address {
     border-radius: 10px;
     border: 1px solod #024873;
     width: 200px;
-    
 }
-
 main a{
     color: #024873;
-    
 }
-
 main a:hover{
     color: rgb(180,4,18);
-    
 }
-
-
 /* footer feet*/
-
 footer{
     background-color: #eaeaea;
     text-align: center;
     padding: 1rem 0;
     font-size: .8rem;
     color: #333
-    
 }
 footer p{
     margin:0;
