@@ -6,9 +6,9 @@ body {background-color:beige;
 /*header stuff*/
 header {
     Background-color: #333;
-    padding: 1rem 30px;
+    padding: .5rem 30px;
 }
-header h1.dog a {
+header h2.dog a {
     color: #CC5500;
     text-decoration: none;
 }
