@@ -6,13 +6,18 @@ body {background-color:beige;
 /*header stuff*/
 header {
     Background-color: #333;
-    padding: .5rem 30px;
+    padding: .001rem 20px;
+    line-height:1;
 }
 header h2.dog a {
     color: #CC5500;
     text-decoration: none;
 }
 /*main stuff here*/
+h1{
+  padding-top:.1rem;
+  margin-top .001rem;
+}
 main{
     padding: 1rem 10px;   
 }
