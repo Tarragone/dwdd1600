@@ -16,7 +16,8 @@ header h2.dog a {
 /*main stuff here*/
 h1{
   padding-top:.1rem;
-  margin-top .001rem;
+  margin-top: .001rem;
+    margin-bottom: 1rem
 }
 main{
     padding: 1rem 10px;   
