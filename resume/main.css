@@ -2,23 +2,26 @@ body {
     font-weight: 300;
     margin: 0;
     font-size: 16px;
+    background-color:#eae0d5;
 }
 /* header stuff here */
 header {
     padding: 1rem 2vw;
+    background-color:#fff;
 }
 header h1 {
     margin: 0;
-    color: #039;
+    color: #5d3a2a;
     font-size: 2.5rem;
 }
 h3{
     margin-top: .5rem;
     margin-bottom:0;
+    color:#22333b;
 }
 h3.cat{
     font-weight: 600;
-    color: #5d3a2a;
+    color: #b64e11;
 }
 header p {
     margin: 0;
@@ -30,7 +33,7 @@ p{
 }
 /* navigation stuff here */
 nav {
-    background-color: #039;
+    background-color: #5d3a2a;
 }
 nav ul {
     margin: 0;
@@ -48,11 +51,11 @@ nav a {
 }
 
 nav .active a {
-    background-color: #5d3a2a;
+    background-color: #b64e11;
     color: #ffffff;
 }
 nav a:hover {
-    background-color: #222;
+    background-color: #d24d21;
 }
 
 
@@ -62,12 +65,12 @@ main {
 }
 
 main h1 {
-    color: #039;
+    color: #22333b;
     font-size: 2.5rem;
     margin: .5rem 0 .8rem 0;
 }
 main h2 {
-    color: #5c3a2e;
+    color: #5d3a2a;
     margin-bottom: .2rem;
 }
 main p {
@@ -99,32 +102,16 @@ main ul li {
     font-size: .9rem;
 }
 main strong {
-    color: #039;
+    color: ##5d3a2a;
 }
 
 main a {
-    color: #039;
+    color: #5d3a2a;
 }
 main a:hover {
     background-color:#eee;
 }
     
-figure.dog{
-    width: 30%;
-    margin: 0 0 0 2;
-    float: right;
-    
-    
-    }
-figure.dog img{
-    width: 100%;
-    height: auto;
-}
-
-figure.dog figcaption {
-    text-align: center;
-    font-size: .75rem;
-}
 
 /* footer stuff here */
 footer {
@@ -133,20 +120,7 @@ footer {
     color: #024873;
     font-size: .7rem;
     padding: 1rem 0;
-}
-
-div.gallery{
-    display: flex;
-    flex-wrap:wrap;
-}
-div.gallery figure{
-    margin:.5rem 2% 0 0;
-}
-
-div.gallery figcaption{
-    text-align:center;
-    font-size:.8rem;
-    color: #039;
+    background-color:#fff;
 }
 
 footer a {
