@@ -135,6 +135,18 @@ div.gallery figcaption{
     font-size:.8rem;
     color: #039;
 }
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+}
+
+main {
+    flex: 1; /* This allows the main section to grow and fill available space */
+}
 
 footer a {
     color: #024873;
