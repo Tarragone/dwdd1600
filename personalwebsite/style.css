@@ -97,17 +97,17 @@ main a:hover {
 }
     
 /*gallery*/
-figure.stoat{
+figure.weasel{
     width: 30%;
     margin: 0 0 0 2;
     float: right;
 }
-figure.stoat img{
+figure.weasel img{
     width: 100%;
     height: auto;
 }
 
-figure.stoat figcaption {
+figure.weasel figcaption {
     text-align: center;
     font-size: .75rem;
 }
