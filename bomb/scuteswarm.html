@@ -1,1 +1,28 @@
-<meta http-equiv="target=_blank" content="5; URL=scuteswarm.html"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Open Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showTime() {
+            document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+        }
+
+        showTime();
+        setInterval(function () {
+            showTime();
+        }, 1000);
+
+        // Open the same page in a new tab after 5 seconds
+        setTimeout(function() {
+            window.open(window.location.href, '_blank'); // Opens the current page in a new tab
+        }, 5000);
+    </script>
+</head>
+<body>
+    <img src="" alt="Flowers in The Mariana">
+    <div id="currentTime"></div>
+</body>
+</html>
