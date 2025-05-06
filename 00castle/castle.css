@@ -1,0 +1,295 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    font-size: 16px;
+}
+/* header stuff here */
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+}
+header div {
+    padding-left: 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #224623;
+    font-size: 2rem;
+    font-weight: 600;
+}
+header p {
+    margin: 0;
+    color: #8F857D;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+header img{
+    
+    height:60px;
+    width: auto;
+}
+
+/* PHONE NAV HERE */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 1.2rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #54691f;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #aaa; 
+    }
+    nav .active a {
+        background-color: #224623;
+        color: white;
+    }
+    nav a{ background-color: white;}
+} /*end small screens*/
+
+@media only screen and (min-width: 601px) {
+    nav {
+        background-color: #d3c1a1;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        display: flex;
+    }
+    nav a {
+        display: block;
+        padding: .8rem 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #111;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        border-left: solid 1px rgba(0,0,0,0.2);
+    }
+
+    nav .active a {
+        color: #224623;
+    }
+    nav a:hover {
+        color: #8F857D;
+    } 
+} /*end large screens*/
+
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #211103;
+    font-size: 2rem;
+    margin: .5rem 0 .8rem 0;
+    font-weight: 300;
+    text-align: center;
+}
+main h2 {
+    color: black;
+    margin-bottom: .2rem;
+    font-weight: 300;
+    text-align:center;
+}
+main p {
+    color: #211103;
+    margin: 0 0 .8rem 0;
+    line-height: 140%;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+main a {
+    color: #224623;
+    font-weight: 600;
+    text-decoration: none;
+}
+header{
+    background-color: white;
+    
+}
+body{
+  background: url("https://texturelabs.org/wp-content/uploads/Texturelabs_Wood_189S.jpg") fixed;
+}
+main{
+    background: url("https://img.freepik.com/premium-photo/old-grunge-parchment-paper-texture-background_118047-11490.jpg");
+}
+
+main a:hover {
+    color: #8F857D;
+    text-decoration: underline;
+}
+ol li {
+    color: #8f1402;
+    margin: 1.5rem .5rem;
+    font-weight: 600;
+    line-height: 135%;
+}
+.hero{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    outline-color: black;
+    outline-width: 5px;
+}
+.hero padding{
+    color: black;
+}
+.hero img{
+    
+    width:100%;
+    height: auto;
+}
+
+.hero img{
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.6); 
+}
+
+
+
+.image-right {
+    float: right;
+    margin: 0 0 0 2vw;
+    width: 33%;
+}
+.image-right figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+table.our-crops{
+    width:100%;
+    border-collapse: collapse;
+    
+}
+table.our-crops th{
+    background-color: #8F857D;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+    
+    
+}
+table.our-crops td{
+
+    padding: .4rem 2vw;
+    
+    
+}
+table.our-crops tr:nth-child(odd){
+    background-color: #D6CE93;
+}
+
+
+table.our-crops tr:hover {
+    background-color: #224623;
+    color:white;
+}
+
+table.our-crops td:hover {
+    background-color: #224623;
+    color:white;
+}
+
+
+
+/* footer stuff here */
+footer {
+    border-top: solid #211103 1px;
+    text-align: center;
+    color: #8F857D;
+    font-size: .8rem;
+    padding: 1rem 0;
+    clear: both;
+    background-color:white;
+}
+footer a {
+    color: #8F857D;
+}
+
+
+
+
+/*gallery*/
+
+
+.wantedgallery {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.wantedgallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+.wantedgallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #895772;
+}
+.wantedgallery img {
+    width: 49%;
+    height: auto;
+
+}
+
+.wantedgallery img:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+iframe{
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+    
+}
+
+
+
+
+
+
+
+
+/* footer stuff here */
+main{
+    max-width: 64rem;
+    margin: 0 auto;
+}
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+}
+
+main {
+    flex: 1; /* This allows the main section to grow and fill available space */
+}
