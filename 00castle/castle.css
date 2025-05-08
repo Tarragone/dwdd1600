@@ -271,6 +271,57 @@ iframe{
 
 
 
+.cat fieldset {
+    border: 1px solid #224623;
+    border-radius: 3px;
+    margin-bottom:1rem;
+}
+
+.cat legend{
+    color: #224623;
+    font-size: .8rem;  
+}
+
+.cat label{
+    margin: .5rem;
+}
+
+.cat label, .cat select, .cat [type=text], .cat [type=tel], .cat textarea{
+    display: block;
+    
+}
+
+.cat [type=text], .cat [type=tel], .cat select, .cat textarea{
+    
+    border:solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+
+
+.cat textare{
+    height:6rem;
+}
+
+.cat :required {
+    background-color: rgba(156,51,53,0.1)
+    
+}
+
+
+.cat [type=submit]{
+    
+    background-color: #224623;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
 
 
 
